@@ -15,6 +15,7 @@
     "EclipseAdoptium.Temurin.17.JDK",
     "EclipseAdoptium.Temurin.8.JRE",
     "EclipseAdoptium.Temurin.21.JDK",
+    "EclipseAdoptium.Temurin.25.JDK",
     "Neovim.Neovim",
     "7zip.7zip",
     "Microsoft.PowerShell",
@@ -72,7 +73,8 @@
     "IObit.IObitUnlocker",
     "AntibodySoftware.WizTree",
     "Sordum.DNSJumper",
-    "Proton.ProtonVPN"
+    "Proton.ProtonVPN",
+    "Oracle.VirtualBox"
   ],
   "choco": [
     "msys2",
