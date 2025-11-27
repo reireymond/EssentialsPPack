@@ -40,8 +40,6 @@
     "Ninja-build.Ninja",
     "Kitware.CMake",
     "Kitware.ParaView",
-    "Docker.DockerDesktop",
-    "Oracle.VirtualBox",
     "DBeaver.DBeaver",
     "Postman.Postman",
     "nginxinc.nginx",
@@ -92,7 +90,6 @@
     "volatility3",
     "cheatengine",
     "nerd-fonts-cascadiacode",
-    "visualstudio2022community",
     "islc"
   ],
   "msys2": [
