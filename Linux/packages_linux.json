@@ -26,6 +26,7 @@
     "bat",
     "eza",
     "jq",
+    "cloc",
     "fzf",
     "ripgrep",
     "neovim",
