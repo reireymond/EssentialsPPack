@@ -35,9 +35,9 @@ fi
 USER_HOME="/home/$CURRENT_USER"
 NVM_DIR="$USER_HOME/.nvm"
 ZSHRC_PATH="$USER_HOME/.zshrc"
-PYTHON_VERSION="3.11.8"
-JAVA_VERSION="17.0.10-tem"
-RUBY_VERSION="3.2.2"
+PYTHON_VERSION="3.12.2"
+JAVA_VERSION="25.0.10-tem"
+RUBY_VERSION="3.3.0"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Caminho para o JSON de pacotes
 PACKAGES_JSON="$SCRIPT_DIR/../Linux/packages_linux.json"
@@ -365,7 +365,7 @@ install_dotnet() {
         sudo apt-get update
     fi
     
-    if sudo apt-get install -y dotnet-sdk-8.0; then
+    if sudo apt-get install -y dotnet-sdk-10.0; then
         SUCCEEDED_PACKAGES+=("dotnet")
     else
         FAILED_PACKAGES+=("dotnet")
