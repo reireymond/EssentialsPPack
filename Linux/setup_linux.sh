@@ -14,7 +14,7 @@ export DEBIAN_FRONTEND=noninteractive
 PYTHON_VERSION="3.12.2"
 JAVA_VERSION="25.0.0-tem"   # Verifique a disponibilidade exata no SDKMAN
 RUBY_VERSION="3.3.0"
-NODE_VERSION="node"         # 'node' para a última versão, ou 'lts/*' para LTS
+NODE_VERSION="lts/*"         # 'node' para a última versão, ou 'lts/*' para LTS
 
 # --- Variáveis de Ambiente ---
 if [ -n "$SUDO_USER" ]; then CURRENT_USER="$SUDO_USER"; else CURRENT_USER="$(whoami)"; fi
